@@ -134,6 +134,10 @@ img.placeholder-image {
   margin-top: 8px;
 }
 
+.image-text.description {
+  font-style: italic;
+}
+
 .quote-block {
   background-color: #e5e7eb;
 }
