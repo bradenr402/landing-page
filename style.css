@@ -88,6 +88,10 @@ header, .hero, footer {
   color: #e5e7eb;
 }
 
+.hero-secondary-text {
+  margin: 5px 0;
+}
+
 button, .call-to-action {
   background-color: #3882f6;
   border-radius: 10px;
@@ -104,7 +108,7 @@ button {
 img.placeholder-image {
   height: auto;
   width: 700px;
-  margin: 100px 200px 100px 100px;
+  margin: 75px 200px 75px 100px;
   border-radius: 14px;
 }
 
@@ -143,9 +147,7 @@ img.placeholder-image {
 }
 
 .quote {
-  margin-left: 425px;
-  margin-right: 425px;
-  padding: 20px;
+  margin: 50px 450px;
   color: #1f2937;
 }
 
@@ -153,7 +155,7 @@ img.placeholder-image {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .quote-author {
@@ -161,6 +163,7 @@ img.placeholder-image {
   font-size: 20px;
   font-weight: 700;
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
 .call-to-action {
