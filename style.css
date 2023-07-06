@@ -5,7 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-html, body {
+body {
   font-family: Roboto, sans-serif;
   margin: 0;
 }
