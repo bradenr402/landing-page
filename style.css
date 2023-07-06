@@ -20,12 +20,8 @@ body {
   flex-direction: column;
 }
 
-header.container, div.header-links {
-  align-items: center;
-}
-
 header > div {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .header-left {
@@ -44,6 +40,7 @@ img {
 }
 
 header, .hero, footer {
+  align-items: center;
   background-color: #1f2937;
 }
 
@@ -78,8 +75,8 @@ a {
   font-size: 60px;
   font-weight: 900;
   color: #f9faf8;
+  margin-top: 0;
   margin-bottom: 0;
-  margin-top: 180px;
 }
 
 .hero-secondary-text, .header-link-text {
