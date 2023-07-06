@@ -25,7 +25,7 @@ header.container, div.header-links {
 }
 
 header > div {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .header-left {
@@ -41,42 +41,6 @@ img.header-logo {
 
 img {
   flex-shrink: 0;
-}
-
-img.placeholder-image, div.info img {
-  box-shadow:
-      0 1px 1px #00000013,
-      0 2px 2px #00000013,
-      0 4px 4px #00000013,
-      0 8px 8px #00000013,
-      0 16px 16px #00000013
-    ;
-}
-
-img.placeholder-image {
-  height: auto;
-  width: 700px;
-  margin: 100px;
-  border-radius: 14px;
-}
-
-div.info img {
-  height: auto;
-  width: 200px;
-  border-radius: 14px;
-}
-
-div.images.container {
-  text-align: center;
-  justify-content: center;
-  gap: 58px;
-  margin-bottom: 50px;
-}
-
-div.information {
-  justify-content: center;
-  margin-bottom: 32px;
-  margin-top: 50px;
 }
 
 header, .hero, footer {
@@ -105,22 +69,22 @@ a {
   text-decoration: none;
 }
 
+.header-logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .hero-main-text {
   font-size: 60px;
   font-weight: 900;
   color: #f9faf8;
   margin-bottom: 0;
-  margin-top: 130px;
+  margin-top: 180px;
 }
 
 .hero-secondary-text, .header-link-text {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.header-logo-text {
-  font-size: 24px;
-  color: #f9faf8;
 }
 
 button, .call-to-action {
@@ -138,6 +102,20 @@ button {
 
 .button2 {
   border: 2px solid white;
+  align-self: center;
+}
+
+div.images.container {
+  text-align: center;
+  justify-content: center;
+  gap: 58px;
+  margin-bottom: 50px;
+}
+
+div.information {
+  justify-content: center;
+  margin-bottom: 32px;
+  margin-top: 50px;
 }
 
 .information {
@@ -146,29 +124,53 @@ button {
   color: #1f2937;
 }
 
-.quote {
+/* Image shadows */
+img.placeholder-image, div.info img {
+  box-shadow:
+      0 1px 1px #00000013,
+      0 2px 2px #00000013,
+      0 4px 4px #00000013,
+      0 8px 8px #00000013,
+      0 16px 16px #00000013
+    ;
+}
+
+img.placeholder-image {
+  height: auto;
+  width: 700px;
+  margin: 100px;
+  border-radius: 14px;
+}
+
+div.info img {
+  height: auto;
+  width: 200px;
+  border-radius: 14px;
+}
+
+.quote-block {
   background-color: #e5e7eb;
 }
 
-.quote-content {
+.quote {
   margin-left: 425px;
   margin-right: 425px;
+  padding: 20px;
+  color: #1f2937;
 }
 
 .quote-text {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
-  color: #1f2937;
-  padding: 20px;
   margin-bottom: 0;
 }
 
 .quote-author {
   text-align: right;
-  padding-bottom: 20px;
   font-size: 20px;
   font-weight: 700;
+  margin-top: 10px;
 }
 
 .call-to-action {
@@ -183,10 +185,6 @@ button {
 
 .call-to-action-title, .call-to-action-text {
   margin: 0;
-}
-
-.button2 {
-  align-self: center;
 }
 
 footer {
