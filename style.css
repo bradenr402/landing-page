@@ -14,19 +14,18 @@ html, body {
   display: flex;
   flex: 1;
   gap: 10px;
-  padding: 10px;
-}
-
-header.container, div.header-links {
-  align-items: center;
 }
 
 .container.column {
   flex-direction: column;
 }
 
-img {
-  flex-shrink: 0;
+header.container, div.header-links {
+  align-items: center;
+}
+
+header > div {
+  margin-top: 10px;
 }
 
 .header-left {
@@ -38,6 +37,10 @@ img {
 img.header-logo {
   height: auto;
   width: 50px;
+}
+
+img {
+  flex-shrink: 0;
 }
 
 img.placeholder-image, div.info img {
@@ -67,11 +70,13 @@ div.images.container {
   text-align: center;
   justify-content: center;
   gap: 58px;
+  margin-bottom: 50px;
 }
 
 div.information {
   justify-content: center;
   margin-bottom: 32px;
+  margin-top: 50px;
 }
 
 header, .hero, footer {
@@ -95,6 +100,11 @@ div.header-links {
   margin-right: 200px;
 }
 
+a {
+  padding: 0 10px;
+  text-decoration: none;
+}
+
 .hero-main-text {
   font-size: 60px;
   font-weight: 900;
@@ -113,22 +123,21 @@ div.header-links {
   color: #f9faf8;
 }
 
-button {
+button, .call-to-action {
   background-color: #3882f6;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+
+button {
   padding: 10px 30px;
-  border-radius: 6px;
   align-self: flex-start;
   font-weight: bold;
-  color: white;
   border: none;
 }
 
 .button2 {
   border: 2px solid white;
-}
-
-.call-to-action {
-  background-color: #3882f6;
 }
 
 .information {
@@ -141,9 +150,14 @@ button {
   background-color: #e5e7eb;
 }
 
+.quote-content {
+  margin-left: 425px;
+  margin-right: 425px;
+}
+
 .quote-text {
   font-size: 36px;
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   color: #1f2937;
   padding: 20px;
@@ -155,18 +169,28 @@ button {
   padding-bottom: 20px;
   font-size: 20px;
   font-weight: 700;
-  margin: 0 20px;
+}
 
+.call-to-action {
+  margin: 100px 300px;
+  padding: 50px 150px;
+}
+
+.call-to-action-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.call-to-action-title, .call-to-action-text {
+  margin: 0;
+}
+
+.button2 {
+  align-self: center;
 }
 
 footer {
   color: #f9faf8;
   padding: 5px;
   text-align: center;
-}
-
-a {
-  padding: 10px;
-  text-decoration: none;
-  color: #e5e7eb;
 }
