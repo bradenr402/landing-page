@@ -37,18 +37,23 @@ img.placeholder-image, .image-group img {
 
 header > div {
   margin-top: 20px;
+  align-items: center;
 }
 
 .header-left {
-  margin-right: auto;
+  margin-left: 200px;
   justify-content: flex-start;
-  align-items: center;
+}
+
+.header-right {
+  margin-right: 200px;
+  justify-content: flex-end;
 }
 
 .header-logo {
   height: auto;
-  width: 50px;
-  margin-left: 200px;
+  width: 60px;
+  padding-right: 10px;
 }
 
 .header-logo-text {
@@ -56,13 +61,9 @@ header > div {
   color: #f9faf8;
 }
 
-.header-links {
-  margin-right: 200px;
-}
-
 a {
-  padding: 0 10px;
   text-decoration: none;
+  padding: 0 10px;
 }
 
 header, .hero, footer {
@@ -94,15 +95,10 @@ button, .call-to-action {
 }
 
 button {
-  padding: 10px 30px;
+  padding: 12px 40px;
   align-self: flex-start;
   font-weight: bold;
   border: none;
-}
-
-.button2 {
-  border: 2px solid white;
-  align-self: center;
 }
 
 img.placeholder-image {
@@ -112,7 +108,7 @@ img.placeholder-image {
   border-radius: 14px;
 }
 
-.images.container {
+.images-block {
   text-align: center;
   justify-content: center;
   gap: 58px;
@@ -132,6 +128,10 @@ img.placeholder-image {
   height: auto;
   width: 200px;
   border-radius: 14px;
+}
+
+.image-text.label {
+  margin-top: 8px;
 }
 
 .quote-block {
@@ -171,6 +171,11 @@ img.placeholder-image {
 
 .call-to-action-title, .call-to-action-text {
   margin: 0;
+}
+
+.button2 {
+  border: 2px solid white;
+  align-self: center;
 }
 
 footer {
