@@ -113,13 +113,6 @@ img.placeholder-image {
   border-radius: 14px;
 }
 
-.images-block {
-  text-align: center;
-  justify-content: center;
-  gap: 58px;
-  margin-bottom: 50px;
-}
-
 .information {
   justify-content: center;
   margin-bottom: 32px;
@@ -127,6 +120,13 @@ img.placeholder-image {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+}
+
+.images-block {
+  text-align: center;
+  justify-content: center;
+  gap: 58px;
+  margin-bottom: 50px;
 }
 
 .image-group img {
