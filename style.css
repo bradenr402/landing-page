@@ -148,20 +148,22 @@ img.placeholder-image {
 }
 
 .quote {
-  margin: 50px 450px;
+  margin: 125px 450px;
   color: #1f2937;
 }
 
 .quote-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   margin: 0;
+  line-height: 1.5em;
 }
 
 .quote-author {
   text-align: right;
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 0;
